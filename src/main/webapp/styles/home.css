@@ -1,0 +1,43 @@
+/* Style for the body */
+body {
+    background-image: url('home.jpg'); /* Specify the path to your background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+}
+
+/* Style for the container div */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust as needed */
+}
+
+/* Style for the link images */
+.link-img {
+    margin: 10px;
+    text-align: center;
+    border: 2px solid black; /* Set border color to black */
+    padding: 10px; /* Add padding to space text from border */
+}
+
+/* Style for the link text */
+.link-text {
+    text-align: center;
+    color: black; /* Set color of text to black */
+    font-size: 18px; /* Set font size of text */
+    font-weight: bold; /* Set font weight to bold */
+    background-color: rgb(128, 255, 255); /* Semi-transparent white background */
+    padding: 5px 10px; /* Add padding to text container */
+}
+
+/* Style for the link images */
+.link-img img {
+    width: 150px; /* Set the width of the images */
+    height: 150px; /* Set the height of the images */
+    opacity: 1; /* Adjust the opacity for brightness */
+}

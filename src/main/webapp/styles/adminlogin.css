@@ -1,0 +1,46 @@
+/* Style for the table */
+table {
+    width: 50%; /* Adjust as needed */
+    margin: auto; /* Center the table */
+    border-collapse: collapse;
+    background-color: #f2f2f2; /* Light gray background */
+}
+
+/* Style for table cells */
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd; /* Gray bottom border */
+}
+
+/* Style for table header */
+th {
+    background-color: #4CAF50; /* Green header background */
+    color: white; /* White header text color */
+}
+
+/* Style for form input fields */
+input[type="text"], input[type="password"], input[type="submit"] {
+    padding: 8px;
+    width: 100%; /* Full width input fields */
+    margin-bottom: 10px;
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px;
+    box-sizing: border-box; /* Include padding and border in width */
+}
+
+/* Style for submit button */
+input[type="submit"], .back-button {
+    background-color: #4CAF50; /* Green button background */
+    color: white; /* White text color */
+    cursor: pointer; /* Add pointer cursor on hover */
+    padding: 10px 20px; /* Add padding */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Add border radius */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Style for submit button on hover */
+input[type="submit"]:hover, .back-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}

@@ -1,0 +1,37 @@
+/* Style for links container */
+body{
+	background-color: springgreen;
+}
+.link-container {
+    display: flex; /* Use flexbox to arrange links side by side */
+    justify-content: space-between; /* Distribute space between links */
+    margin-bottom: 10px; /* Add margin below the links */
+}
+
+/* Style for individual link */
+.link-container a {
+    text-align: center; /* Center align text */
+    color: #000; /* Set text color to black */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Display links as blocks */
+    background-color: #f0f0f0; /* Set background color */
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 5px; /* Add border radius */
+    transition: background-color 0.3s, color 0.3s; /* Add transition effect */
+    overflow: hidden; /* Hide overflowing content */
+    width: 150px; /* Set width of link container */
+    height: 150px; /* Set height of link container */
+}
+
+/* Style for links on hover */
+.link-container a:hover {
+    background-color: #ddd; /* Darken background color on hover */
+    color: #333; /* Darken text color on hover */
+}
+
+/* Style for link images */
+.link-container a img {
+    width: 100%; /* Set width to fill link container */
+    height: 100%; /* Set height to fill link container */
+    object-fit: cover; /* Ensure the image covers the entire container */
+}
